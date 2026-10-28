@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact AI Tool Scout | Submissions &amp; Inquiries</title>
+  <meta name="description" content="Get in touch with the editorial team at AI Tool Scout for tool submissions, pricing updates, corrections, or partnerships.">
+  <link rel="canonical" href="https://aitoolscout.pages.dev/contact.html">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact AI Tool Scout | Submissions &amp; Inquiries">
+  <meta property="og:description" content="Get in touch with the editorial team at AI Tool Scout for tool submissions, pricing updates, corrections, or partnerships.">
+  <meta property="og:url" content="https://aitoolscout.pages.dev/contact.html">
+  <meta property="og:site_name" content="AI Tool Scout">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact AI Tool Scout | Submissions &amp; Inquiries">
+  <meta name="twitter:description" content="Get in touch with the editorial team at AI Tool Scout for tool submissions, pricing updates, corrections, or partnerships.">
+
+  <!-- Typography: Google Fonts Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/components.css">
+
+  
+</head>
+<body>
+  
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="/" class="brand-logo" aria-label="AI Tool Scout Home">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+          </svg>
+        </div>
+        <span>AI Tool <span class="gradient-text">Scout</span></span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="/" class="nav-link ">Explore Tools</a></li>
+          <li><a href="/categories/index.html" class="nav-link ">Categories</a></li>
+          <li><a href="/compare/index.html" class="nav-link ">Compare</a></li>
+          <li><a href="/about.html" class="nav-link ">About & Integrity</a></li>
+          <li><a href="/contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" data-modal-open="saved-tools-modal" title="View Saved Tools" aria-label="Saved Tools">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </button>
+        <button class="btn btn-primary btn-sm" data-modal-open="submit-tool-modal">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+          Submit Tool
+        </button>
+        <button class="btn-icon mobile-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+    <ul class="mobile-nav-links">
+      <li><a href="/" class="">Explore Tools</a></li>
+      <li><a href="/categories/index.html" class="">Categories Hub</a></li>
+      <li><a href="/compare/index.html" class="">Compare AI Tools</a></li>
+      <li><a href="/about.html" class="">About & Methodology</a></li>
+      <li><a href="/contact.html" class="active">Contact & Submit</a></li>
+      <li><a href="/disclosure.html">Affiliate Disclosure</a></li>
+    </ul>
+    <div style="margin-top: auto;">
+      <button class="btn btn-primary" style="width: 100%;" data-modal-open="submit-tool-modal">
+        Submit an AI Tool
+      </button>
+    </div>
+  </div>
+  
+
+  <main id="main-content">
+    
+  <section class="hero-section" style="padding: 4rem 0 2.5rem;">
+    <div class="container">
+      <div class="breadcrumbs" style="justify-content: center;">
+        <a href="/">Home</a> <span>/</span> <span>Contact</span>
+      </div>
+      <h1 class="hero-title">Contact Editorial Team</h1>
+      <p class="hero-subtitle">
+        Have a tool correction, submission request, or partnership inquiry? Reach out directly.
+      </p>
+    </div>
+  </section>
+
+  <section class="container container-narrow" style="padding-bottom: 5rem;">
+    <div class="content-box">
+      <form id="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your message has been received. Our editorial team will review your inquiry.'); this.reset();">
+        <div class="form-group">
+          <label class="form-label" for="contact-name">Full Name *</label>
+          <input type="text" id="contact-name" class="form-control" placeholder="Jane Doe" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-email">Email Address *</label>
+          <input type="email" id="contact-email" class="form-control" placeholder="jane@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-subject">Topic *</label>
+          <select id="contact-subject" class="form-control" required>
+            <option value="submission">New Tool Submission</option>
+            <option value="correction">Pricing or Feature Correction</option>
+            <option value="partnership">Affiliate or Advertising Inquiry</option>
+            <option value="feedback">General Site Feedback</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="contact-message">Message *</label>
+          <textarea id="contact-message" class="form-control" placeholder="Please provide specific URLs, pricing documentation, or your query..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+  
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-disclosure">
+        <strong>Affiliate & Advertising Transparency Disclosure:</strong> AI Tool Scout is independently owned and operated. Some of the outbound links to software providers on this site may be affiliate links. If you click an affiliate link and make a purchase, we may receive a commission at no additional cost to you. This does not influence our editorial assessments, pricing verifications, or tool inclusion criteria. We do not accept payment to falsify reviews or conceal product limitations. <a href="/disclosure.html" style="color: var(--accent-cyan); text-decoration: underline;">Read our complete disclosure policy</a>.
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+              </svg>
+            </div>
+            <span>AI Tool Scout</span>
+          </div>
+          <p>The curated directory of artificial intelligence software. Tested by practitioners, verified with authentic pricing, and maintained without paid bias.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Directory Categories</h4>
+          <ul class="footer-links">
+            <li><a href="/category/ai-writing.html">AI Writing Assistants</a></li>
+            <li><a href="/category/ai-image.html">AI Image Generation</a></li>
+            <li><a href="/category/ai-video.html">AI Video & Avatars</a></li>
+            <li><a href="/category/ai-coding.html">AI Code Assistants</a></li>
+            <li><a href="/category/ai-productivity.html">AI Productivity & Notes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Popular Comparisons</h4>
+          <ul class="footer-links">
+            <li><a href="/compare/cursor-vs-github-copilot.html">Cursor vs GitHub Copilot</a></li>
+            <li><a href="/compare/chatgpt-vs-claude.html">ChatGPT vs Claude</a></li>
+            <li><a href="/compare/midjourney-vs-stable-diffusion.html">Midjourney vs Stable Diffusion</a></li>
+            <li><a href="/compare/notion-ai-vs-perplexity.html">Notion AI vs Perplexity</a></li>
+            <li><a href="/compare/index.html">Interactive Tool Comparator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Trust & Legal</h4>
+          <ul class="footer-links">
+            <li><a href="/about.html">About AI Tool Scout</a></li>
+            <li><a href="/contact.html">Contact Editorial Desk</a></li>
+            <li><a href="/disclosure.html">Affiliate Disclosure</a></li>
+            <li><a href="/privacy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AI Tool Scout. All rights reserved. Zero fake reviews.</p>
+        <p>Built for zero-cost static hosting on Cloudflare Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Submit Tool Modal -->
+  <div class="modal-overlay" id="submit-tool-modal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <button class="modal-close-btn" data-modal-close aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Submit an AI Tool for Verification</h3>
+      <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+        We review all submissions against public documentation. Submissions with fabricated free tiers or fake pricing will be rejected.
+      </p>
+
+      <form id="submit-tool-form">
+        <!-- Honeypot field for anti-spam bots -->
+        <input type="text" name="website_hp" style="display:none !important;" tabindex="-1" autocomplete="off">
+
+        <div class="form-group">
+          <label class="form-label" for="sub-name">Tool Name *</label>
+          <input type="text" id="sub-name" class="form-control" placeholder="e.g. Cursor" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="sub-url">Official Website URL *</label>
+          <input type="url" id="sub-url" class="form-control" placeholder="https://example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="sub-cat">Category *</label>
+          <select id="sub-cat" class="form-control" required>
+            <option value="ai-writing">AI Writing</option>
+            <option value="ai-image">AI Image</option>
+            <option value="ai-video">AI Video</option>
+            <option value="ai-coding">AI Coding</option>
+            <option value="ai-productivity">AI Productivity</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="sub-free">Free Tier or Free Trial Details *</label>
+          <textarea id="sub-free" class="form-control" placeholder="Detail the exact limits, queries per month, or trial duration..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">
+          Submit for Editorial Review
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Saved Tools Modal -->
+  <div class="modal-overlay" id="saved-tools-modal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <button class="modal-close-btn" data-modal-close aria-label="Close dialog">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Your Bookmarked AI Tools</h3>
+      <p style="font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+        Tools you save using the heart icon are stored locally on your device for fast reference.
+      </p>
+      <div id="saved-tools-list" style="display: flex; flex-direction: column; gap: 0.75rem; max-height: 320px; overflow-y: auto;">
+        <p style="color: var(--text-muted); font-size: 0.875rem; text-align: center; padding: 2rem 0;">No tools saved yet. Click the heart icon on any tool card to bookmark it!</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Global Client App Script -->
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

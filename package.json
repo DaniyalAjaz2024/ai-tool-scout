@@ -1,0 +1,25 @@
+{
+  "name": "ai-tool-scout",
+  "version": "1.0.0",
+  "description": "AI Tool Scout - The Curated, Verified Directory of Modern Artificial Intelligence Tools",
+  "main": "scripts/build.js",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js",
+    "test": "node --test tests/*.test.js",
+    "validate": "node scripts/validate.js",
+    "check-links": "node scripts/check-links.js",
+    "generate-draft": "node scripts/generate-draft.js"
+  },
+  "keywords": [
+    "ai-tools",
+    "ai-directory",
+    "cloudflare-pages",
+    "static-site",
+    "curated-tools"
+  ],
+  "author": "AI Tool Scout",
+  "license": "MIT"
+}

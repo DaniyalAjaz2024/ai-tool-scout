@@ -1,0 +1,140 @@
+[
+  {
+    "id": "cursor-vs-github-copilot",
+    "slug": "cursor-vs-github-copilot",
+    "title": "Cursor vs GitHub Copilot: Which AI Coding Tool is Better in 2025?",
+    "tagline": "A verified developer comparison between an AI-first IDE fork and a cross-editor plugin",
+    "toolAId": "cursor",
+    "toolBId": "github-copilot",
+    "category": "ai-coding",
+    "verdict": "Choose Cursor if you are comfortable using a VS Code fork and want multi-file refactoring with deep codebase indexing. Choose GitHub Copilot if you work inside JetBrains, Visual Studio, or Neovim and prioritize enterprise ecosystem compatibility.",
+    "keyDifferences": [
+      {
+        "aspect": "Architecture",
+        "toolA": "Complete fork of VS Code with native AI integration across all UI panes",
+        "toolB": "Extension/plugin compatible with VS Code, JetBrains, Visual Studio, Neovim"
+      },
+      {
+        "aspect": "Codebase Indexing",
+        "toolA": "Deep local + remote semantic index for complex multi-file architectural edits",
+        "toolB": "Workspace context through open tabs and repository embedding endpoints"
+      },
+      {
+        "aspect": "Free Tier",
+        "toolA": "2,000 completions + 50 slow requests/mo",
+        "toolB": "2,000 code completions + 50 chat queries/mo"
+      },
+      {
+        "aspect": "Underlying Models",
+        "toolA": "Claude 3.5 Sonnet, GPT-4o, Cursor-Fast custom fine-tunes",
+        "toolB": "GPT-4o, Claude 3.5 Sonnet, o1-preview, Gemini 1.5 Pro"
+      },
+      {
+        "aspect": "Pricing",
+        "toolA": "$20/month for Pro",
+        "toolB": "$10/month for Individual"
+      }
+    ]
+  },
+  {
+    "id": "chatgpt-vs-claude",
+    "slug": "chatgpt-vs-claude",
+    "title": "ChatGPT vs Claude: Complete Comparison & Real Benchmark Analysis",
+    "tagline": "Comparing OpenAI's multi-modal ecosystem against Anthropic's reasoning powerhouse",
+    "toolAId": "chatgpt",
+    "toolBId": "claude",
+    "category": "ai-writing",
+    "verdict": "ChatGPT wins on overall ecosystem versatility, live web search, custom GPT marketplace, and Python data interpreter. Claude wins on articulate writing quality, nuance, strict instruction following, and live interactive Artifacts.",
+    "keyDifferences": [
+      {
+        "aspect": "Primary Strength",
+        "toolA": "Multi-modal analysis, custom GPTs, code execution, web search",
+        "toolB": "Natural tone, complex reasoning, Artifacts workspace, code synthesis"
+      },
+      {
+        "aspect": "Context Window",
+        "toolA": "128,000 tokens",
+        "toolB": "200,000 tokens"
+      },
+      {
+        "aspect": "Interactive UI",
+        "toolA": "Canvas for collaborative writing and coding",
+        "toolB": "Artifacts side pane for live web apps, markdown, and code"
+      },
+      {
+        "aspect": "Free Tier Access",
+        "toolA": "Unlimited GPT-4o mini, rate-limited GPT-4o and web search",
+        "toolB": "Claude 3.5 Sonnet with dynamic message limits reset every few hours"
+      },
+      {
+        "aspect": "Paid Plan",
+        "toolA": "$20/month (ChatGPT Plus)",
+        "toolB": "$20/month (Claude Pro)"
+      }
+    ]
+  },
+  {
+    "id": "midjourney-vs-stable-diffusion",
+    "slug": "midjourney-vs-stable-diffusion",
+    "title": "Midjourney vs Stable Diffusion: Photorealism vs Open-Source Control",
+    "tagline": "Turn-key aesthetic mastery compared against offline GPU sovereignty",
+    "toolAId": "midjourney",
+    "toolBId": "stable-diffusion",
+    "category": "ai-image",
+    "verdict": "Choose Midjourney if you want instant, stunning photorealism straight out of the box with zero hardware setup. Choose Stable Diffusion if you demand 100% privacy, open weights, custom fine-tuning, ControlNet structural control, and zero ongoing subscription fees on your own GPU.",
+    "keyDifferences": [
+      {
+        "aspect": "Deployment",
+        "toolA": "Hosted cloud service via Web UI and Discord bot",
+        "toolB": "Open weights runnable locally (ComfyUI) or via cloud APIs"
+      },
+      {
+        "aspect": "Control & Customization",
+        "toolA": "Parametric prompts, inpainting, style reference codes",
+        "toolB": "Unlimited: ControlNet, LoRAs, custom checkpoints, full seed repeatability"
+      },
+      {
+        "aspect": "Pricing & Hardware",
+        "toolA": "Starts at $10/month, runs on any browser",
+        "toolB": "Free and open source; requires dedicated GPU with 8GB+ VRAM"
+      },
+      {
+        "aspect": "Commercial Terms",
+        "toolA": "Commercial rights included with paid tiers",
+        "toolB": "Permissive open weights licensing for local commercial use"
+      }
+    ]
+  },
+  {
+    "id": "notion-ai-vs-perplexity",
+    "slug": "notion-ai-vs-perplexity",
+    "title": "Notion AI vs Perplexity: Internal Knowledge vs Live Web Intelligence",
+    "tagline": "Connecting workspace documentation versus synthesizing cited internet research",
+    "toolAId": "notion-ai",
+    "toolBId": "perplexity",
+    "category": "ai-productivity",
+    "verdict": "Notion AI is best for teams organizing internal knowledge, project management, and automated document drafting. Perplexity is unmatched for external web research, current event queries, and academic discovery with verified citations.",
+    "keyDifferences": [
+      {
+        "aspect": "Primary Data Source",
+        "toolA": "Your private Notion workspace, databases, and connected team drives",
+        "toolB": "The live, public internet with indexed source documents and citations"
+      },
+      {
+        "aspect": "Core Use Case",
+        "toolA": "Meeting summaries, workspace Q&A, database property autofill",
+        "toolB": "Replacing search engines with synthesized answers and footnote links"
+      },
+      {
+        "aspect": "Starting Price",
+        "toolA": "$8/member/month add-on",
+        "toolB": "Free tier available; Pro is $20/month"
+      },
+      {
+        "aspect": "Standalone Utility",
+        "toolA": "Requires an active Notion workspace",
+        "toolB": "Standalone web app, desktop app, and mobile application"
+      }
+    ]
+  }
+]

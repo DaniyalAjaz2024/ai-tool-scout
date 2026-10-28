@@ -1,0 +1,35 @@
+name: Scheduled Link Health Monitor
+
+on:
+  schedule:
+    # Runs weekly on Sunday at 03:00 UTC (consumes <5 mins/month of 2,000 free GitHub Actions minutes)
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    name: Check Official Links Conservatively
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run Conservative Link Health Checker
+        run: npm run check-links
+
+      - name: Upload Link Health Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-health-report
+          path: reports/link-health-report.md
+          retention-days: 30
+
+      - name: Step Summary
+        run: |
+          cat reports/link-health-report.md >> $GITHUB_STEP_SUMMARY

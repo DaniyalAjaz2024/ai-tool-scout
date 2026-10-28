@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Logs & temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Reports
+reports/
+drafts/*.json
+drafts/*.md
+!drafts/.gitkeep

@@ -1,0 +1,64 @@
+name: Scaffolding Tool Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      tool_name:
+        description: 'Tool Name (e.g. "Krea AI")'
+        required: true
+        type: string
+      category:
+        description: 'Category'
+        required: true
+        type: choice
+        options:
+          - ai-writing
+          - ai-image
+          - ai-video
+          - ai-coding
+          - ai-productivity
+      official_url:
+        description: 'Official Website URL (e.g. "https://krea.ai")'
+        required: true
+        type: string
+
+jobs:
+  generate-draft:
+    name: Generate Verification Draft PR
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate Draft Files
+        run: |
+          node scripts/generate-draft.js "${{ inputs.tool_name }}" "${{ inputs.category }}" "${{ inputs.official_url }}"
+
+      - name: Create Pull Request for Editorial Review
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Scaffold verified tool draft: ${{ inputs.tool_name }}"
+          title: "Editorial Draft: Verify & Add ${{ inputs.tool_name }}"
+          body: |
+            ## New Tool Submission Draft: ${{ inputs.tool_name }}
+            
+            - **Category**: `${{ inputs.category }}`
+            - **Official URL**: `${{ inputs.official_url }}`
+            
+            ### Editorial Review Instructions
+            1. Open `drafts/${{ inputs.tool_name }}.md` and complete the 5-point verification checklist.
+            2. Verify official pricing and free tier quotas directly on the vendor's site.
+            3. Once verified, copy the JSON entry from `drafts/` into `data/tools.json`.
+            4. Run `npm test` and `npm run build` to confirm validity.
+            5. Merge into `main` after approval.
+          branch: "draft/${{ inputs.tool_name }}"
+          delete-branch: true

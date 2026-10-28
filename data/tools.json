@@ -1,0 +1,512 @@
+[
+  {
+    "id": "cursor",
+    "slug": "cursor",
+    "name": "Cursor",
+    "tagline": "AI-first code editor built as a fork of VS Code with deep codebase indexing",
+    "description": "Cursor is an AI-powered code editor built on top of VS Code. It indexes your entire repository to provide context-aware multi-file edits, intelligent inline autocompletions, and terminal command generation.",
+    "category": "ai-coding",
+    "officialUrl": "https://cursor.com",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$20/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Hobby plan includes 2-week Pro trial, then 2,000 completions and 50 slow premium model requests per month.",
+    "verifiedFeatures": [
+      "Repository-wide semantic codebase indexing",
+      "Multi-file edit prediction and refactoring",
+      "Chat with full codebase context using @-symbols",
+      "Terminal command explanation and generation",
+      "Native compatibility with VS Code extensions and themes"
+    ],
+    "pros": [
+      "Drop-in replacement for VS Code with zero migration friction",
+      "Exceptional multi-file code editing capabilities",
+      "Supports leading models including Claude 3.5 Sonnet and GPT-4o"
+    ],
+    "cons": [
+      "Requires switching from standard IDEs outside the VS Code ecosystem",
+      "Usage limits can be reached quickly during heavy multi-file refactoring sessions"
+    ],
+    "bestFor": "Software engineers and web developers wanting an AI-native IDE workflow",
+    "lastVerified": "2025-01-20",
+    "featured": true,
+    "tags": ["IDE", "Code Assistant", "VS Code", "Refactoring", "Claude 3.5 Sonnet"]
+  },
+  {
+    "id": "github-copilot",
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "tagline": "AI pair programmer directly integrated across major code editors",
+    "description": "GitHub Copilot provides real-time code completions, chat assistance, pull request summaries, and documentation generation across VS Code, Visual Studio, JetBrains, and Neovim.",
+    "category": "ai-coding",
+    "officialUrl": "https://github.com/features/copilot",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$10/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "GitHub Copilot Free tier includes 2,000 code completions and 50 chat messages per month in supported editors.",
+    "verifiedFeatures": [
+      "Inline whole-line and multi-line code completions",
+      "Sidebar chat interface for code explanation and unit tests",
+      "Integration with GitHub pull requests and commit generation",
+      "Cross-editor support: VS Code, JetBrains, Visual Studio, Neovim",
+      "Enterprise compliance and IP indemnification controls"
+    ],
+    "pros": [
+      "Works natively across almost every popular developer IDE",
+      "Free tier available for all registered GitHub users",
+      "Deep integration with GitHub repositories and CI/CD workflows"
+    ],
+    "cons": [
+      "Less aggressive multi-file automated refactoring compared to dedicated AI-first editors",
+      "Free tier message caps are relatively low for full-time engineers"
+    ],
+    "bestFor": "Developers who want an AI coding assistant inside their existing JetBrains or VS Code setup",
+    "lastVerified": "2025-01-18",
+    "featured": true,
+    "tags": ["IDE Extension", "Code Completion", "GitHub", "JetBrains", "VS Code"]
+  },
+  {
+    "id": "v0-vercel",
+    "slug": "v0-by-vercel",
+    "name": "v0 by Vercel",
+    "tagline": "Generative UI system that turns natural language prompts into production React code",
+    "description": "v0 is an AI-powered generative design tool developed by Vercel. It generates accessible, modern React components using Tailwind CSS and shadcn/ui based on text prompts and screenshot references.",
+    "category": "ai-coding",
+    "officialUrl": "https://v0.dev",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$20/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free tier includes 200 credits per month renewed every cycle, with public generations.",
+    "verifiedFeatures": [
+      "Generates clean React, Tailwind CSS, and shadcn/ui components",
+      "Figma and screenshot-to-code visual recreation",
+      "Live component preview and interactive sandbox",
+      "Direct code export via npx command line integration",
+      "Iteration mode to modify specific UI elements"
+    ],
+    "pros": [
+      "Outputs production-ready, highly accessible UI code",
+      "Dramatically reduces frontend prototyping time",
+      "Clean adherence to standard shadcn/ui design patterns"
+    ],
+    "cons": [
+      "Focused primarily on React and Tailwind ecosystems",
+      "Generations on the free tier are shared publicly"
+    ],
+    "bestFor": "Frontend developers, designers, and founders building modern web applications",
+    "lastVerified": "2025-01-22",
+    "featured": true,
+    "tags": ["Frontend", "React", "Tailwind CSS", "UI Design", "Vercel"]
+  },
+  {
+    "id": "chatgpt",
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "tagline": "Conversational AI model suite with web browsing, code execution, and canvas editing",
+    "description": "Developed by OpenAI, ChatGPT is a versatile conversational AI platform capable of complex writing, programming assistance, mathematical reasoning, image analysis, and interactive document editing.",
+    "category": "ai-writing",
+    "officialUrl": "https://chatgpt.com",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$20/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free tier offers unlimited access to GPT-4o mini, limited dynamic access to GPT-4o, web search, and custom GPTs with rate limits.",
+    "verifiedFeatures": [
+      "Advanced multi-modal reasoning across text, code, audio, and images",
+      "Canvas interface for collaborative writing and coding",
+      "Integrated Python code interpreter and data visualization",
+      "Custom GPT marketplace and creator studio",
+      "Real-time web browsing with source citations"
+    ],
+    "pros": [
+      "Industry-leading general versatility across broad tasks",
+      "Extensive ecosystem of specialized Custom GPTs",
+      "Robust free plan accessible without a subscription"
+    ],
+    "cons": [
+      "Peak usage hours may throttle higher-tier reasoning models on free accounts",
+      "Privacy conscious teams need enterprise plans to guarantee training exclusion"
+    ],
+    "bestFor": "Professionals, writers, students, and general knowledge workers",
+    "lastVerified": "2025-01-15",
+    "featured": true,
+    "tags": ["LLM", "Chatbot", "Writing Assistant", "OpenAI", "Data Analysis"]
+  },
+  {
+    "id": "claude",
+    "slug": "claude",
+    "name": "Claude",
+    "tagline": "Safety-focused AI assistant renowned for nuanced writing, coding, and large document analysis",
+    "description": "Claude, created by Anthropic, is known for its high reasoning fidelity, 200,000 token context window, Artifacts interactive workspace, and human-like writing tone without robotic clichés.",
+    "category": "ai-writing",
+    "officialUrl": "https://claude.ai",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$20/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free plan includes access to Claude 3.5 Sonnet with rolling message limits reset every few hours.",
+    "verifiedFeatures": [
+      "200K token context window capable of ingesting whole books and codebases",
+      "Interactive Artifacts window for live code, markdown, and SVG previewing",
+      "Nuanced editorial writing with strong adherence to tone instructions",
+      "Top-tier benchmarks for code synthesis and logical reasoning",
+      "Strict constitutional AI alignment and privacy protections"
+    ],
+    "pros": [
+      "Produces exceptionally natural, articulate writing",
+      "Artifacts UI allows real-time iteration on documents and web apps",
+      "Handles large file uploads and complex multi-page document reviews"
+    ],
+    "cons": [
+      "Free tier message caps are dynamically enforced during peak hours",
+      "No native voice conversation mode on the web version"
+    ],
+    "bestFor": "Long-form writers, researchers, developers, and analysts needing deep reasoning",
+    "lastVerified": "2025-01-24",
+    "featured": true,
+    "tags": ["LLM", "Writing", "Artifacts", "Anthropic", "Research"]
+  },
+  {
+    "id": "grammarly",
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "tagline": "AI writing assistant with real-time tone adjustment, grammar correction, and citations",
+    "description": "Grammarly assists writers by checking grammar, clarity, conciseness, tone, and plagiarism across web browsers, email clients, desktop word processors, and mobile keyboards.",
+    "category": "ai-writing",
+    "officialUrl": "https://www.grammarly.com",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$12/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free tier provides core grammar, spelling, punctuation checks, and 100 AI generative prompt credits per month.",
+    "verifiedFeatures": [
+      "Real-time spelling, punctuation, and conciseness suggestions",
+      "Context-aware tone detector and rewrite recommendations",
+      "Generative prompts for drafting, summarizing, and brainstorming",
+      "Browser extensions for Chrome, Edge, Safari, and Firefox",
+      "Plagiarism detection against billions of web pages (Premium plan)"
+    ],
+    "pros": [
+      "Works invisibly across Gmail, Google Docs, Slack, and word processors",
+      "Reliable and non-intrusive foundational proofreading",
+      "Excellent tone detection to avoid misunderstanding in work communication"
+    ],
+    "cons": [
+      "Advanced style rewrites and vocabulary enhancements require paid tier",
+      "Plagiarism checker is not available on the free tier"
+    ],
+    "bestFor": "Professionals, students, and non-native English speakers wanting polished text",
+    "lastVerified": "2025-01-10",
+    "featured": false,
+    "tags": ["Proofreading", "Grammar", "Tone Detection", "Browser Extension"]
+  },
+  {
+    "id": "midjourney",
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "tagline": "Photorealistic generative AI image studio recognized for artistic aesthetics",
+    "description": "Midjourney is an independent research lab producing leading text-to-image synthesis models celebrated for photorealistic lighting, artistic composition, and stylistic diversity.",
+    "category": "ai-image",
+    "officialUrl": "https://www.midjourney.com",
+    "affiliateUrl": null,
+    "pricingType": "Paid",
+    "startingPrice": "$10/month",
+    "hasFreeTier": false,
+    "freePlanDetails": "No permanent free tier. Users must subscribe to a paid tier starting at $10/month for ~200 fast generation minutes.",
+    "verifiedFeatures": [
+      "Ultra-high aesthetic photorealism and textural coherence",
+      "Web interface and Discord bot access",
+      "Inpainting (Vary Region), Outpainting (Pan/Zoom), and Style References",
+      "Custom parameter control (--ar, --stylize, --chaos, --sref)",
+      "High-resolution upscaling options"
+    ],
+    "pros": [
+      "Unmatched artistic fidelity and lighting realism straight from prompts",
+      "Active creative community and vast prompt exploration library",
+      "Dedicated web interface now open to all active subscribers"
+    ],
+    "cons": [
+      "No permanent free trial available",
+      "Complex prompt parameters have a slight learning curve"
+    ],
+    "bestFor": "Digital artists, concept designers, illustrators, and creative directors",
+    "lastVerified": "2025-01-20",
+    "featured": true,
+    "tags": ["Image Generation", "Art", "Photorealism", "Diffusion", "Creative"]
+  },
+  {
+    "id": "stable-diffusion",
+    "slug": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "tagline": "Open-weight image generation models offering total control and local execution",
+    "description": "Stable Diffusion by Stability AI provides open-access image and media generation models. Developers and creators can run weights locally with full parameter control, custom LoRAs, and ControlNet.",
+    "category": "ai-image",
+    "officialUrl": "https://stability.ai",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "Free / Open Source",
+    "hasFreeTier": true,
+    "freePlanDetails": "Model weights are free to download and run locally on personal hardware with no subscription fees.",
+    "verifiedFeatures": [
+      "Open model weights for local execution and offline generation",
+      "Full ControlNet integration for structural pose and edge guidance",
+      "Community LoRAs, fine-tunes, and custom checkpoint compatibility",
+      "No content filtering or API lock-in when running locally",
+      "Cloud API access available for commercial developer integration"
+    ],
+    "pros": [
+      "100% free and private when run locally on your own GPU",
+      "Vast open-source ecosystem (ComfyUI, Automatic1111, Forge)",
+      "Unrestricted creative control through fine-tuning"
+    ],
+    "cons": [
+      "Requires a modern dedicated GPU (8GB+ VRAM recommended) for smooth local generation",
+      "Technical setup required compared to turn-key web apps"
+    ],
+    "bestFor": "Power users, developers, and creators with dedicated GPU hardware",
+    "lastVerified": "2025-01-19",
+    "featured": false,
+    "tags": ["Open Source", "Local AI", "ControlNet", "ComfyUI", "Image Generation"]
+  },
+  {
+    "id": "recraft",
+    "slug": "recraft",
+    "name": "Recraft",
+    "tagline": "AI design canvas specializing in vector art, icons, brand consistency, and 3D illustrations",
+    "description": "Recraft is an infinite-canvas AI design tool tailored for professional graphic designers. It allows generation of clean vector SVGs, 3D graphics, icon sets, and brand-consistent illustrations.",
+    "category": "ai-image",
+    "officialUrl": "https://www.recraft.ai",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$20/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free plan includes daily credit allocation for standard generations, with public community sharing.",
+    "verifiedFeatures": [
+      "Native vector SVG generation and direct vector export",
+      "Brand color palette enforcement across generated graphics",
+      "Infinite collaborative design canvas",
+      "Style reference lock for consistent icon sets and illustration kits",
+      "Background removal, vectorization, and generative fill tools"
+    ],
+    "pros": [
+      "One of the few AI tools producing true, editable vector SVG assets",
+      "Consistent style matching across full icon packs",
+      "Intuitive canvas interface designed specifically for graphic designers"
+    ],
+    "cons": [
+      "Free generations are published to the public explore feed",
+      "Complex raster photo editing is secondary to graphic illustration"
+    ],
+    "bestFor": "UI/UX designers, brand designers, and illustrators needing clean SVGs",
+    "lastVerified": "2025-01-25",
+    "featured": false,
+    "tags": ["Vector", "SVG", "Icon Sets", "Design Canvas", "Branding"]
+  },
+  {
+    "id": "runway",
+    "slug": "runway-gen3",
+    "name": "Runway Gen-3 Alpha",
+    "tagline": "High-fidelity text-to-video and video-to-video generation platform",
+    "description": "Runway is a generative video pioneer. Its Gen-3 Alpha model delivers photorealistic cinematic video clips from text or image prompts, with granular camera controls and temporal consistency.",
+    "category": "ai-video",
+    "officialUrl": "https://runwayml.com",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$12/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free plan provides a one-time allocation of 125 credits to test Gen-3 Alpha and creative tools, with no credit card required.",
+    "verifiedFeatures": [
+      "Text-to-video and image-to-video generation with realistic physics",
+      "Motion Brush to direct specific velocity and directional movement",
+      "Granular camera controls (pan, zoom, tilt, roll)",
+      "Lip sync audio matching and motion tracking",
+      "Video-to-video style transfer suite"
+    ],
+    "pros": [
+      "Cinematic motion dynamics and camera direction control",
+      "Leading temporal consistency and textural rendering in AI video",
+      "Comprehensive web-based post-processing studio"
+    ],
+    "cons": [
+      "High credit consumption per generated video second",
+      "Free credits are one-time and do not refresh monthly"
+    ],
+    "bestFor": "Filmmakers, VFX artists, motion designers, and video producers",
+    "lastVerified": "2025-01-16",
+    "featured": true,
+    "tags": ["Video Generation", "Motion Control", "Cinematic", "VFX", "Gen-3"]
+  },
+  {
+    "id": "descript",
+    "slug": "descript",
+    "name": "Descript",
+    "tagline": "Text-based video and audio editor with automated filler word removal and voice cloning",
+    "description": "Descript revolutionizes audio and video editing by transcribing footage into editable text. Editing the transcript automatically cuts the underlying video and audio, with AI studio sound and eye-contact correction.",
+    "category": "ai-video",
+    "officialUrl": "https://www.descript.com",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$12/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free plan includes 1 transcription hour per month, 1 watermark-free 720p video export, and standard studio sound.",
+    "verifiedFeatures": [
+      "Doc-style text-based audio and video editing",
+      "Automated one-click filler word removal ('um', 'uh', repeated words)",
+      "Studio Sound AI voice isolation and room noise cancellation",
+      "AI eye-contact correction for webcam video recordings",
+      "AI voice cloning for script overdubbing"
+    ],
+    "pros": [
+      "Massively speeds up podcast and talking-head video editing",
+      "Studio Sound transforms cheap microphone audio into studio quality",
+      "Transcript-first workflow eliminates tedious timeline scrubbing"
+    ],
+    "cons": [
+      "Free plan export resolution is capped at 720p",
+      "Not designed for complex cinematic multi-layered VFX compositing"
+    ],
+    "bestFor": "Podcasters, YouTubers, course creators, and remote teams",
+    "lastVerified": "2025-01-21",
+    "featured": true,
+    "tags": ["Video Editing", "Podcast", "Transcription", "Voice Cloning", "Audio"]
+  },
+  {
+    "id": "heygen",
+    "slug": "heygen",
+    "name": "HeyGen",
+    "tagline": "AI video generation platform specializing in realistic digital avatars and localization",
+    "description": "HeyGen allows teams to create studio-quality videos using photorealistic AI avatars and voice synthesis. It translates videos into 40+ languages with automatic voice cloning and lip synchronization.",
+    "category": "ai-video",
+    "officialUrl": "https://www.heygen.com",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$24/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free tier grants 1 free video credit (up to 1 minute duration) with access to standard avatars and voices.",
+    "verifiedFeatures": [
+      "100+ photorealistic commercial avatars and custom instant avatar creation",
+      "Video translation with accurate voice timbre and lip synchronization",
+      "Multi-language text-to-speech with 300+ natural voices",
+      "Template library for marketing, onboarding, and training videos",
+      "Screen recorder with avatar picture-in-picture overlay"
+    ],
+    "pros": [
+      "Creates corporate training and sales videos without cameras or actors",
+      "Remarkable lip-sync accuracy during multi-language translation",
+      "Rapid turnaround for localized international marketing content"
+    ],
+    "cons": [
+      "Free plan is limited to 1 trial credit",
+      "Custom instant avatars require submitting consent verification videos"
+    ],
+    "bestFor": "Corporate training teams, sales representatives, and global marketers",
+    "lastVerified": "2025-01-14",
+    "featured": false,
+    "tags": ["Avatars", "Video Translation", "Localization", "Text to Speech"]
+  },
+  {
+    "id": "notion-ai",
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "tagline": "Connected AI workspace assistant that searches, summarizes, and writes across your notes",
+    "description": "Notion AI is embedded directly inside the Notion workspace. It can answer questions across your entire documentation base, summarize long meeting notes, draft briefs, and autofill database properties.",
+    "category": "ai-productivity",
+    "officialUrl": "https://www.notion.so/product/ai",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$8/member/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Notion itself has a free plan; Notion AI includes complimentary trial responses before requiring an add-on subscription.",
+    "verifiedFeatures": [
+      "Q&A assistant querying your entire workspace and team knowledge base",
+      "Automated summary generation for meeting notes and project specs",
+      "AI Autofill for database columns (action items, tags, summaries)",
+      "Inline text rewriting for tone, translation, and conciseness",
+      "Integrations to search connected Slack and Google Drive documents"
+    ],
+    "pros": [
+      "Seamlessly integrated into existing team documentation",
+      "Database AI autofill eliminates manual data classification",
+      "Context-aware search across all team pages"
+    ],
+    "cons": [
+      "Requires an existing Notion workspace to be useful",
+      "Paid as an add-on subscription per workspace member"
+    ],
+    "bestFor": "Teams and individuals already managing projects and docs in Notion",
+    "lastVerified": "2025-01-23",
+    "featured": true,
+    "tags": ["Workspace", "Knowledge Base", "Notes", "Summarization", "Productivity"]
+  },
+  {
+    "id": "perplexity",
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "tagline": "Conversational conversational answer engine providing cited web research in real time",
+    "description": "Perplexity is an AI-powered answer engine that searches the live web, synthesizes facts from authoritative sources, and provides inline footnotes and citations for every claim.",
+    "category": "ai-productivity",
+    "officialUrl": "https://www.perplexity.ai",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$20/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free tier includes unlimited standard searches, 5 Pro searches per day, and source citations.",
+    "verifiedFeatures": [
+      "Live web synthesis with verifiable numbered citations",
+      "Pro Search with multi-step reasoning and automated follow-ups",
+      "Focus modes (Academic, Writing, YouTube, Reddit, Computational)",
+      "File upload and document analysis",
+      "Collections feature to organize research threads into shared knowledge hubs"
+    ],
+    "pros": [
+      "Replaces traditional search engine ad bloat with direct answers",
+      "Transparent citation linking makes fact-checking fast",
+      "Very generous free tier for daily web research"
+    ],
+    "cons": [
+      "Deep Pro Searches are capped at 5 per day on the free plan",
+      "Occasional misinterpretation of niche paywalled academic papers"
+    ],
+    "bestFor": "Researchers, journalists, students, and professionals needing sourced facts",
+    "lastVerified": "2025-01-25",
+    "featured": true,
+    "tags": ["Search Engine", "Research", "Citations", "Answer Engine", "Fact Checking"]
+  },
+  {
+    "id": "otter-ai",
+    "slug": "otter-ai",
+    "name": "Otter.ai",
+    "tagline": "Automated meeting transcription, speaker identification, and action-item assistant",
+    "description": "Otter.ai connects to Zoom, Google Meet, and Microsoft Teams to record audio, take real-time notes, identify speakers, and automatically draft summaries and assign action items.",
+    "category": "ai-productivity",
+    "officialUrl": "https://otter.ai",
+    "affiliateUrl": null,
+    "pricingType": "Freemium",
+    "startingPrice": "$10/user/month",
+    "hasFreeTier": true,
+    "freePlanDetails": "Free Basic plan includes 300 monthly transcription minutes (30 minutes max per conversation) and automated summaries.",
+    "verifiedFeatures": [
+      "Real-time live transcription with speaker labeling",
+      "Automatic calendar sync with Zoom, Google Meet, and Teams",
+      "AI-generated executive meeting summaries and key takeaways",
+      "Automated action item extraction and assignment",
+      "Searchable archive of all past spoken meeting recordings"
+    ],
+    "pros": [
+      "Eliminates manual note taking during busy team syncs",
+      "Accurate speaker identification and timing markers",
+      "Searchable spoken transcripts across entire team archives"
+    ],
+    "cons": [
+      "Free plan caps individual recordings at 30 minutes",
+      "Requires clear audio input for high technical term accuracy"
+    ],
+    "bestFor": "Remote teams, consultants, students, and interviewers",
+    "lastVerified": "2025-01-17",
+    "featured": false,
+    "tags": ["Meetings", "Transcription", "Audio Notes", "Zoom", "Summaries"]
+  }
+]

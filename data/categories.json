@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ai-writing",
+    "slug": "ai-writing",
+    "name": "AI Writing",
+    "shortName": "Writing",
+    "tagline": "Content creation, copywriting, editing, and research assistants",
+    "description": "Discover curated AI writing tools for blog posts, marketing copy, academic research, storytelling, and document editing with verified pricing.",
+    "icon": "pen-tool",
+    "accentColor": "#38bdf8",
+    "featured": true,
+    "toolsCount": 0
+  },
+  {
+    "id": "ai-image",
+    "slug": "ai-image",
+    "name": "AI Image",
+    "shortName": "Image",
+    "tagline": "Image generation, photo editing, design, and upscaling",
+    "description": "Explore top AI image generators, text-to-image models, background removers, and digital art studios with authentic free tiers and pricing plans.",
+    "icon": "image",
+    "accentColor": "#ec4899",
+    "featured": true,
+    "toolsCount": 0
+  },
+  {
+    "id": "ai-video",
+    "slug": "ai-video",
+    "name": "AI Video",
+    "shortName": "Video",
+    "tagline": "Video generation, avatar creation, subtitles, and AI video editors",
+    "description": "Compare leading AI video creation suites, generative video models, realistic voice-over avatars, and automated editing workflows.",
+    "icon": "video",
+    "accentColor": "#8b5cf6",
+    "featured": true,
+    "toolsCount": 0
+  },
+  {
+    "id": "ai-coding",
+    "slug": "ai-coding",
+    "name": "AI Coding",
+    "shortName": "Coding",
+    "tagline": "AI code assistants, IDE extensions, debugging, and terminal agents",
+    "description": "Find the best AI pair programmers, code completion engines, terminal assistants, and automated refactoring tools tested by developers.",
+    "icon": "code",
+    "accentColor": "#10b981",
+    "featured": true,
+    "toolsCount": 0
+  },
+  {
+    "id": "ai-productivity",
+    "slug": "ai-productivity",
+    "name": "AI Productivity",
+    "shortName": "Productivity",
+    "tagline": "Note taking, meeting summaries, task automation, and knowledge bases",
+    "description": "Boost team and personal output with verified AI meeting note takers, automated workflows, intelligent search, and knowledge management systems.",
+    "icon": "zap",
+    "accentColor": "#f59e0b",
+    "featured": true,
+    "toolsCount": 0
+  }
+]

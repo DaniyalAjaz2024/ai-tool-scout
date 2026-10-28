@@ -1,0 +1,5 @@
+# AI Tool Scout - robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://aitoolscout.pages.dev/sitemap.xml
